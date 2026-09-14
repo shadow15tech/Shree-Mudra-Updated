@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shreemudra — Pranav Lakshmi-Ganesh Mudra | ₹499</title>
+<meta name="description" content="Pranav Lakshmi-Ganesh Mudra — ek Shubh Uphaar, har Shubh Aarambh ke liye. Premium devotional keepsake, ab ₹499 mein.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Noto+Serif+Devanagari:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="ticker-bar">
+  <div class="ticker-track">
+    <span>मुफ़्त डिलीवरी पूरे भारत में</span>
+    <span>Cash on Delivery उपलब्ध</span>
+    <span>सुरक्षित भुगतान</span>
+    <span>प्रीमियम पैकेजिंग</span>
+    <span>मुफ़्त डिलीवरी पूरे भारत में</span>
+    <span>Cash on Delivery उपलब्ध</span>
+    <span>सुरक्षित भुगतान</span>
+    <span>प्रीमियम पैकेजिंग</span>
+  </div>
+</div>
+
+<header>
+  <div class="header-inner">
+    <div class="header-left">
+      <button class="icon-btn" id="menuBtn" aria-label="मेन्यू खोलें">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <nav class="desktop-nav">
+      <a href="#gallery">प्रोडक्ट</a>
+      <a href="#why">खासियतें</a>
+      <a href="#reviews">समीक्षाएं</a>
+      <a href="#faq">सवाल-जवाब</a>
+    </nav>
+    <a href="#top" class="brand">
+      <img src="images/logo.jpg" alt="Shreemudra">
+      <div style="text-align:center;">
+        <div class="brand-name">Shreemudra</div>
+        <div class="brand-sub">DIVINE COIN COLLECTION</div>
+      </div>
+    </a>
+    <div class="header-right">
+      <button class="icon-btn" id="searchBtn" aria-label="प्रोडक्ट खोजें">
+        <svg viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+      <button class="icon-btn" id="cartBtn" aria-label="कार्ट खोलें">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M3 4h2l1.4 11.2A2 2 0 008.4 17H18a2 2 0 002-1.7L21 8H6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="20" r="1.4" fill="currentColor"/><circle cx="18" cy="20" r="1.4" fill="currentColor"/></svg>
+        <span class="cart-badge" id="cartBadge">1</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<aside class="drawer" id="drawer">
+  <div class="drawer-head">
+    <img src="images/logo.jpg" alt="Shreemudra">
+    <button class="drawer-close" id="drawerClose" aria-label="बंद करें">×</button>
+  </div>
+  <nav>
+    <a href="#top" class="drawer-link">होम</a>
+    <a href="#gallery" class="drawer-link">प्रोडक्ट</a>
+    <a href="#about" class="drawer-link">हमारे बारे में</a>
+    <a href="#why" class="drawer-link">खासियतें</a>
+    <a href="#reviews" class="drawer-link">समीक्षाएं</a>
+    <a href="#faq" class="drawer-link">सवाल-जवाब</a>
+  </nav>
+  <a href="#order" class="drawer-cta drawer-link">Buy Now – ₹499</a>
+</aside>
+
+<section class="hero" id="top">
+  <div class="hero-rays" aria-hidden="true"></div>
+  <div class="hero-media">
+    <img src="images/altar-1.jpg" alt="Pranav Lakshmi-Ganesh Mudra — premium coin in devotional setting">
+  </div>
+  <div class="hero-copy">
+    <div class="kicker"><span class="rule"></span>SHREEMUDRA PRESENTS<span class="rule"></span></div>
+    <h1>Pranav Lakshmi-Ganesh Mudra</h1>
+    <p class="tagline">Ek Shubh Uphaar, Har Shubh Aarambh Ke Liye</p>
+    <a href="#order" class="cta-primary heroBuyBtn">
+      Apna Shubh Sankalp Ghar Laayein
+      <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <p style="margin-top:12px; font-size:11.5px; color:var(--gold-bright); font-weight:700; opacity:0; animation:riseIn 0.7s ease 0.56s forwards;">⏰ सीमित स्टॉक — आज ही ऑर्डर करें</p>
+  </div>
+</section>
+
+<div class="live-sale-bar">
+  <div class="live-badge"><span class="dot"></span>LIVE</div>
+  <div class="live-track-wrap">
+    <div class="live-track" id="liveTrack"></div>
+  </div>
+</div>
+
+<section class="offer-wrap" id="offer">
+  <div class="wrap">
+    <div class="offer-card">
+      <span class="offer-tag">LIMITED TIME OFFER</span>
+      <div class="offer-price-row">
+        <span class="offer-old">₹1,499</span>
+        <span class="offer-new">₹499</span>
+      </div>
+      <span class="offer-off">67% OFF — आज ही ऑर्डर करें</span>
+      <div class="stock-row">
+        <span>🔥 केवल <b class="stockNum">37</b> पीस बचे हैं</span>
+      </div>
+      <div class="stock-bar"><div class="stock-bar-fill stockFill" style="width:37%;"></div></div>
+
+      <div class="countdown" aria-label="ऑफर समाप्त होने में शेष समय">
+        <div class="cd-box"><div class="cd-num cd-h">02</div><div class="cd-lab">HRS</div></div>
+        <div class="cd-box"><div class="cd-num cd-m">17</div><div class="cd-lab">MINS</div></div>
+        <div class="cd-box"><div class="cd-num cd-s">36</div><div class="cd-lab">SECS</div></div>
+      </div>
+
+      <a href="#order" class="cta-primary heroBuyBtn" style="width:100%; justify-content:center;">
+        Apna Shubh Sankalp Ghar Laayein
+        <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+
+      <div class="trust-row">
+        <span><svg viewBox="0 0 24 24" fill="none"><path d="M3 12h13M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Fast Delivery</span>
+        <span><svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v6c0 5-3.5 7.5-7 9-3.5-1.5-7-4-7-9V6l7-3z" stroke="currentColor" stroke-width="1.8"/></svg>Secure Payment</span>
+        <span><svg viewBox="0 0 24 24" fill="none"><rect x="4" y="8" width="16" height="12" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M8 8V6a4 4 0 018 0v2" stroke="currentColor" stroke-width="1.8"/></svg>Premium Packaging</span>
+        <span><svg viewBox="0 0 24 24" fill="none"><path d="M20 12v8H4v-8M2 7h20v5H2V7zM12 22V7M12 7c-1-3-4-4-5.5-2.5S8 8 12 7zM12 7c1-3 4-4 5.5-2.5S16 8 12 7z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>Perfect for Gifting</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="wrap section-head">
+    <div class="kicker"><span class="rule"></span>नज़दीक से देखें</div>
+    <h2>Har Kona, Ek Kahaani</h2>
+  </div>
+  <div class="gallery-scroll">
+    <div class="gallery-item">
+      <div class="gallery-card"><img src="images/altar-1.jpg" alt="संपूर्ण प्रोडक्ट — देवघर सेटिंग में"></div>
+      <div class="gallery-caption">संपूर्ण प्रोडक्ट</div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-card"><img src="images/coin-om.jpg" alt="ॐ साइड — मुद्रा सिक्का"></div>
+      <div class="gallery-caption">ॐ साइड</div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-card"><img src="images/coin-lakshmi-ganesh.jpg" alt="लक्ष्मी-गणेश साइड — शुभ लाभ"></div>
+      <div class="gallery-caption">लक्ष्मी-गणेश साइड</div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-card"><img src="images/red-bg.jpg" alt="प्रीमियम पैकेजिंग में सिक्का"></div>
+      <div class="gallery-caption">प्रीमियम पैकेजिंग</div>
+    </div>
+  </div>
+  <div class="gallery-dots" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+</section>
+
+<section id="about" style="background:var(--ivory-deep);">
+  <div class="wrap intro">
+    <div class="intro-coin">
+      <div>
+        <div class="coin-stage" id="coinStage" aria-label="सिक्का घूम रहा है — ॐ और लक्ष्मी-गणेश दोनों भाग">
+          <div class="coin-flip">
+            <div class="coin-face front"><img src="images/coin-om.jpg" alt="ॐ मुद्रा"></div>
+            <div class="coin-face back"><img src="images/coin-lakshmi-ganesh.jpg" alt="लक्ष्मी-गणेश — शुभ लाभ"></div>
+          </div>
+        </div>
+        <p class="tap-hint">सिक्का अपने आप घूमकर दोनों पावन भाग दिखाता है</p>
+      </div>
+    </div>
+    <div class="intro-copy">
+      <div class="kicker"><span class="rule"></span>प्रोडक्ट परिचय</div>
+      <h2>Pranav Lakshmi-Ganesh Mudra</h2>
+      <p>A beautiful devotional keepsake designed to bring a sense of faith, positivity and auspiciousness to your space. हर विवरण को बारीकी से उकेरा गया है ताकि यह सिक्का सिर्फ धातु नहीं, बल्कि आस्था और शुभता का प्रतीक बने — घर की तिजोरी हो, पूजा घर हो या उपहार का पल।</p>
+    </div>
+  </div>
+</section>
+
+<section id="why">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kicker"><span class="rule"></span>क्यों चुनें Shreemudra</div>
+      <h2>Is Mudra Mein Khaas Kya Hai</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2v20M4 12h16" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+        <h3>Shubh Aarambh</h3>
+        <p>हर नई शुरुआत के लिए एक शुभ संकेत</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0112 4.5 5.5 5.5 0 0121.5 12c-2.5 4.5-9.5 9-9.5 9z" stroke="currentColor" stroke-width="1.7"/></svg></div>
+        <h3>Faith &amp; Positivity</h3>
+        <p>आस्था और सकारात्मक ऊर्जा का प्रतीक</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M20 12v8H4v-8M2 7h20v5H2V7zM12 22V7" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+        <h3>Elegant Gifting</h3>
+        <p>अपनों को देने के लिए सुंदर विकल्प</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.7"/><path d="M12 8v4l3 2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+        <h3>Premium Keepsake</h3>
+        <p>सालों साल संजोकर रखने लायक</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gifting" id="gifting">
+  <div class="wrap gifting-grid">
+    <div class="gifting-media"><img src="images/red-bg.jpg" alt="Shreemudra गिफ्ट पैकेजिंग"></div>
+    <div class="gifting-copy">
+      <div class="kicker"><span class="rule"></span>गिफ्टिंग के लिए परफेक्ट</div>
+      <h2>Ek Shubh Uphaar, Khaas Apno Ke Liye</h2>
+      <p>Festivals, new beginnings aur special occasions ke liye ek meaningful gift — Shreemudra ka Pranav Lakshmi-Ganesh Mudra, premium पैकेजिंग के साथ आपके अपनों तक पहुँचता है।</p>
+      <a href="#order" class="cta-primary heroBuyBtn" style="background:linear-gradient(180deg, var(--vermilion), var(--maroon-deep));">
+        Order Now
+        <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="reviews" style="background:var(--ivory-deep);">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kicker"><span class="rule"></span>ग्राहकों के अनुभव</div>
+      <h2>Hazaaron Khush Dil Graahakon Ka Vishwas</h2>
+    </div>
+    <div class="review-grid">
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"नए घर में गृहप्रवेश के समय यह सिक्का मंगवाया था। बनावट बहुत सुंदर है और पैकिंग भी शानदार।"</p>
+        <div class="review-who"><div class="review-avatar">र</div><div><div class="review-name">रीना शर्मा</div><div class="review-loc">जयपुर</div></div></div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"अपनी नई दुकान के शुभारंभ पर रखा है। डिलीवरी तेज़ थी और पैकेजिंग बहुत प्रीमियम लगी।"</p>
+        <div class="review-who"><div class="review-avatar">मु</div><div><div class="review-name">मुकेश अग्रवाल</div><div class="review-loc">इंदौर</div></div></div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"दिवाली पर पूरे परिवार के लिए मंगवाया, गिफ्ट के लिए बहुत अच्छा विकल्प है।"</p>
+        <div class="review-who"><div class="review-avatar">प</div><div><div class="review-name">प्रिया वर्मा</div><div class="review-loc">लखनऊ</div></div></div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"क्वालिटी उम्मीद से बेहतर निकली। पूजा घर में बहुत अच्छा लग रहा है।"</p>
+        <div class="review-who"><div class="review-avatar">स</div><div><div class="review-name">सुनीता राव</div><div class="review-loc">पुणे</div></div></div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"COD का ऑप्शन देखकर भरोसा हुआ और सामान समय पर पहुँच गया।"</p>
+        <div class="review-who"><div class="review-avatar">अ</div><div><div class="review-name">अंकित जोशी</div><div class="review-loc">सूरत</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="offer2">
+  <div class="wrap">
+    <div class="offer-card">
+      <span class="offer-tag">LIMITED TIME OFFER</span>
+      <div class="offer-price-row">
+        <span class="offer-old">₹1,499</span>
+        <span class="offer-new">₹499</span>
+      </div>
+      <span class="offer-off">67% OFF — सीमित समय के लिए</span>
+      <div class="stock-row">
+        <span>🔥 केवल <b class="stockNum">37</b> पीस बचे हैं</span>
+      </div>
+      <div class="stock-bar"><div class="stock-bar-fill stockFill" style="width:37%;"></div></div>
+      <div class="countdown">
+        <div class="cd-box"><div class="cd-num cd-h">02</div><div class="cd-lab">HRS</div></div>
+        <div class="cd-box"><div class="cd-num cd-m">17</div><div class="cd-lab">MINS</div></div>
+        <div class="cd-box"><div class="cd-num cd-s">36</div><div class="cd-lab">SECS</div></div>
+      </div>
+      <a href="#order" class="cta-primary heroBuyBtn" style="width:100%; justify-content:center;">
+        Apna Shubh Sankalp Ghar Laayein
+        <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <div class="trust-row">
+        <span>✓ Fast Delivery</span><span>✓ Secure Payment</span><span>✓ Premium Packaging</span><span>✓ Perfect for Gifting</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="background:var(--ivory-deep);">
+  <div class="wrap" style="max-width:720px;">
+    <div class="section-head">
+      <div class="kicker"><span class="rule"></span>अक्सर पूछे जाने वाले प्रश्न</div>
+      <h2>आपके सवाल, हमारे जवाब</h2>
+    </div>
+    <div id="faqList">
+      <div class="faq-item">
+        <button class="faq-q">क्या Cash on Delivery (COD) उपलब्ध है?<span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">जी हाँ, पूरे भारत में COD की सुविधा उपलब्ध है। आप ऑर्डर मिलने पर भुगतान कर सकते हैं।</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">सिक्का किस सामग्री से बना है?<span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">यह सिक्का बारीक उभरी नक्काशी के साथ प्रीमियम मेटल पर तैयार किया गया है और टिकाऊ सुरक्षा केस में आता है।</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">डिलीवरी में कितना समय लगेगा?<span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">आमतौर पर ऑर्डर 4-7 कार्य दिवसों में आपके पते पर पहुँच जाता है, शहर के अनुसार समय थोड़ा अलग हो सकता है।</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">क्या यह उपहार देने के लिए उपयुक्त है?<span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">बिल्कुल। यह गृहप्रवेश, विवाह, जन्मदिन, दुकान के शुभारंभ जैसे अवसरों के लिए एक शुभ और सुंदर उपहार है, और प्रीमियम पैकेजिंग में आता है।</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">ऑर्डर कैसे किया जाए?<span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">कहीं भी "Buy Now" बटन दबाएँ, अपनी जानकारी भरें और WhatsApp पर भेज दें — हमारी टीम आपसे संपर्क करेगी।</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta" id="order">
+  <div class="wrap">
+    <h2>Apne Ghar Laayein Ek Shubh Sankalp</h2>
+    <p>Pranav Lakshmi-Ganesh Mudra — sirf ₹499 mein, aaj hi.</p>
+    <button class="cta-primary" id="openModalBtn">Buy Now – ₹499</button>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="images/logo.jpg" alt="Shreemudra">
+        <span>Shreemudra</span>
+      </div>
+      <div class="footer-tagline">FAITH • WEALTH • HAPPINESS</div>
+    </div>
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#about">About</a>
+        <a href="#gallery">Products</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <a href="#order">Contact</a>
+        <a href="#" onclick="return false;">Privacy Policy</a>
+        <a href="#" onclick="return false;">Terms &amp; Conditions</a>
+      </div>
+      <div class="footer-col">
+        <h4>Orders</h4>
+        <a href="#" onclick="return false;">Refund Policy</a>
+        <a href="#" onclick="return false;">Shipping Policy</a>
+        <a href="#order">Track Order</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Shreemudra. सर्वाधिकार सुरक्षित।</span>
+      <span>Made with ♥ in India</span>
+    </div>
+    <p class="footer-disclaimer">Shreemudra एक धार्मिक स्मृति एवं उपहार उत्पाद है। यह निवेश हेतु शुद्ध चांदी/सोने की बुलियन वस्तु नहीं है और इसके साथ कोई चिकित्सीय, वित्तीय या आध्यात्मिक गारंटी नहीं जुड़ी है।</p>
+  </div>
+</footer>
+
+<div class="sticky-cta" id="stickyCta">
+  <div class="p"><span class="l1">₹1,499</span><span class="l2">₹499</span></div>
+  <button id="stickyBuyBtn">Buy Now – ₹499</button>
+</div>
+
+<div class="just-bought" id="justBought" aria-hidden="true">
+  <div class="jb-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+  <div class="jb-text"><b id="jbName">Rakesh, Delhi</b><span>ने अभी Mudra ऑर्डर किया</span></div>
+</div>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-box">
+    <div class="modal-head">
+      <h3>ऑर्डर विवरण भरें</h3>
+      <button class="modal-close" id="modalClose" aria-label="बंद करें">×</button>
+    </div>
+    <p class="modal-sub">विवरण भरने के बाद WhatsApp पर भेजें — हमारी टीम तुरंत आपसे संपर्क करेगी।</p>
+    <form id="orderForm">
+      <div class="field"><label for="fName">पूरा नाम</label><input type="text" id="fName" required placeholder="जैसे: राम कुमार"></div>
+      <div class="field"><label for="fPhone">मोबाइल नंबर</label><input type="tel" id="fPhone" required pattern="[0-9]{10}" maxlength="10" placeholder="10 अंकों का नंबर"></div>
+      <div class="field"><label for="fAddress">पूरा पता</label><textarea id="fAddress" required rows="3" placeholder="मकान नं., गली, शहर, राज्य"></textarea></div>
+      <div class="field-row">
+        <div class="field"><label for="fPin">पिनकोड</label><input type="text" id="fPin" required pattern="[0-9]{6}" maxlength="6" placeholder="6 अंक"></div>
+      </div>
+      <div class="qty-row">
+        <span style="font-size:13.5px; font-weight:600; color:var(--maroon-deep);">मात्रा</span>
+        <div class="qty-controls">
+          <button type="button" class="qty-btn" id="qtyMinus" aria-label="कम करें">−</button>
+          <span id="qtyVal">1</span>
+          <button type="button" class="qty-btn" id="qtyPlus" aria-label="बढ़ाएँ">+</button>
+        </div>
+      </div>
+      <div class="modal-total"><span class="lab">कुल राशि</span><span class="val" id="totalPrice">₹499</span></div>
+      <button type="button" id="payOnlineBtn" class="modal-submit modal-pay">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2" y="5" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M2 10h20" stroke="currentColor" stroke-width="1.8"/></svg>
+        अभी ऑनलाइन Pay करें — ₹<span id="payAmount">499</span>
+      </button>
+      <div class="modal-divider"><span>या</span></div>
+      <button type="submit" class="modal-submit">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.3A8.9 8.9 0 0012 4a8.9 8.9 0 00-7.7 13.4L3 21l3.7-1.3A8.9 8.9 0 0012 20.9 8.9 8.9 0 0017.6 6.3zM12 19.1a7 7 0 01-3.6-1l-.3-.2-2.7 1 1-2.6-.2-.3A7 7 0 1119 12a7 7 0 01-7 7.1zm3.9-5.2c-.2-.1-1.3-.6-1.5-.7-.2-.1-.3-.1-.5.1s-.6.7-.8.9-.3.2-.5.1a5.7 5.7 0 01-1.7-1 6.3 6.3 0 01-1.2-1.5c-.1-.2 0-.3.1-.5l.4-.4.2-.4v-.4c0-.1-.5-1.3-.7-1.7-.2-.4-.4-.4-.5-.4h-.5a1 1 0 00-.7.3 2.8 2.8 0 00-.9 2.1 5 5 0 001 2.6 11.3 11.3 0 004.4 3.9c.6.3 1 .4 1.4.5a3.4 3.4 0 001.5.1 2.5 2.5 0 001.6-1.1 1.9 1.9 0 00.1-1.1c-.1-.1-.2-.1-.4-.2z"/></svg>
+        COD — WhatsApp पर ऑर्डर भेजें
+      </button>
+    </form>
+    <p class="modal-note">"ऑनलाइन Pay करें" से आप सीधे भुगतान पेज पर जाएंगे। COD के लिए WhatsApp वाला बटन इस्तेमाल करें।</p>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
