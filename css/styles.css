@@ -189,7 +189,7 @@
     100%{ box-shadow:0 0 0 0 rgba(92,224,122,0); }
   }
   .live-track-wrap{ flex:1; overflow:hidden; height:100%; }
-  .live-track{ display:inline-flex; align-items:center; height:100%; gap:34px; animation:liveScroll 26s linear infinite; padding-left:34px; }
+  .live-track{ display:inline-flex; align-items:center; height:100%; gap:34px; animation:liveScroll 45s linear infinite; padding-left:34px; -webkit-animation:liveScroll 45s linear infinite; }
   @keyframes liveScroll{ from{ transform:translateX(0); } to{ transform:translateX(-50%); } }
   .live-track span{ font-size:12.5px; font-weight:600; display:inline-flex; align-items:center; gap:6px; color:#fff0dd; }
   .live-track span b{ color:var(--gold-bright); font-weight:800; }
